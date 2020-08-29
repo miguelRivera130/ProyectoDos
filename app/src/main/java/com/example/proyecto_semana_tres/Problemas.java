@@ -12,7 +12,7 @@ public class Problemas {
         this.Respuesta = Respuesta;
         this.Calculo = Calculo;
 
-        switch (this.Numero){
+        switch (Numero){
             case 0:
                 this.Calculo = "5x12";
                 this.Respuesta = "" + 60;
